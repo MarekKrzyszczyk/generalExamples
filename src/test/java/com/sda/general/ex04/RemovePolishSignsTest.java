@@ -9,16 +9,10 @@ class RemovePolishSignsTest {
     RemovePolishSigns removePolishSigns = new RemovePolishSigns();
 
     @Test
-    public void RemovePolishSigns(){
+    public void RemovePolishSigns() {
 
         String correctResult = "zolc";
         assertEquals(correctResult, removePolishSigns.reverseFromPolishToEnglishbySwitch("żółć"));
         assertNotEquals("żolc",removePolishSigns.reverseFromPolishToEnglishbySwitch("żółć"));
-        assertNotEquals("żolc",removePolishSigns.reverseFromPolishToEnglishbySwitch("żó"));
-
     }
-
-
-
-
 }
