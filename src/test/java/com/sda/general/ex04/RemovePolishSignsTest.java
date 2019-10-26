@@ -14,6 +14,5 @@ class RemovePolishSignsTest {
         String correctResult = "zolc";
         assertEquals(correctResult, removePolishSigns.reverseFromPolishToEnglishbySwitch("żółć"));
         assertNotEquals("żolc",removePolishSigns.reverseFromPolishToEnglishbySwitch("żółć"));
-        assertNotEquals("żolc",removePolishSigns.reverseFromPolishToEnglishbySwitch("żó"));
     }
 }
