@@ -1,0 +1,1 @@
+Napisz program, który pobiera liczbę od uzytkownika i sprawdza czy podana liczba jest parzysta czy nieparzysta i wyswietla stosowny komunikat
