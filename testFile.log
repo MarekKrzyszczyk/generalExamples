@@ -1,0 +1,2 @@
+332  [main] INFO  com.sda.general.ex01.ParityChecker - Checking isOdd()
+342  [main] DEBUG com.sda.general.ex01.ParityChecker - Checking number 8 if is odd. Result: false
