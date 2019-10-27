@@ -1,2 +1,5 @@
 332  [main] INFO  com.sda.general.ex01.ParityChecker - Checking isOdd()
 342  [main] DEBUG com.sda.general.ex01.ParityChecker - Checking number 8 if is odd. Result: false
+327  [main] INFO  com.sda.general.ex01.ParityChecker - Checking isOdd()
+330  [main] DEBUG com.sda.general.ex01.ParityChecker - Checking number 10 if is odd. Result: false
+906  [main] INFO  c.s.general.ex03v2.JsonFilesService - insertToJsonFile
