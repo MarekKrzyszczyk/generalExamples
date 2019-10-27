@@ -3,3 +3,19 @@
 327  [main] INFO  com.sda.general.ex01.ParityChecker - Checking isOdd()
 330  [main] DEBUG com.sda.general.ex01.ParityChecker - Checking number 10 if is odd. Result: false
 906  [main] INFO  c.s.general.ex03v2.JsonFilesService - insertToJsonFile
+1015 [main] ERROR c.s.general.ex03v2.JsonFilesService - No suitable constructor found for type [simple type, class com.sda.general.ex03v2.Person]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 2]
+1008 [main] ERROR c.s.general.ex03v2.JsonFilesService - No suitable constructor found for type [simple type, class com.sda.general.ex03v2.Person]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 2]
+1019 [main] ERROR c.s.general.ex03v2.JsonFilesService - No suitable constructor found for type [simple type, class com.sda.general.ex03v2.Person]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 2]
+990  [main] ERROR c.s.general.ex03v2.JsonFilesService - No suitable constructor found for type [simple type, class com.sda.general.ex03v2.Person]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 2]
+1124 [main] ERROR c.s.general.ex03v2.JsonFilesService - No suitable constructor found for type [simple type, class com.sda.general.ex03v2.Person]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 2]
+1000 [main] ERROR c.s.general.ex03v2.JsonFilesService - No suitable constructor found for type [simple type, class com.sda.general.ex03v2.Person]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 2]
+1047 [main] ERROR c.s.general.ex03v2.JsonFilesService - Can not deserialize instance of com.sda.general.ex03v2.Person out of START_ARRAY token
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 1]
+1004 [main] ERROR c.s.general.ex03v2.JsonFilesService - No suitable constructor found for type [simple type, class com.sda.general.ex03v2.Person]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: C:\Users\Marek Krzyszczyk\Desktop\java\src\main\java\com\sda\general\ex03v2\person.json; line: 1, column: 3]
