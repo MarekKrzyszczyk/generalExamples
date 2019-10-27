@@ -8,7 +8,12 @@ class TypeConverterTest {
     TypeConverter typeConverter = new TypeConverter();
 
     @Test
-    void converter() {
+    void convertedCorrect() {
         assertEquals("trzydzieści osiem", typeConverter.converter("38"));
+    }
+
+    @Test
+    void convertedIncorrect() {
+        assertNotEquals("trzydzieści osiem", typeConverter.converter("37"));
     }
 }
