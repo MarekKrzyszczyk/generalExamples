@@ -12,24 +12,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
-public class JsonFilesService<T> {
+public class SaveToJsonFile<T> {
 
     ObjectMapper mapper = new ObjectMapper();
     private String path = "C:\\Users\\Marek Krzyszczyk\\Desktop\\java\\src\\main\\java\\com\\sda\\general\\ex03v2\\person.json";
 
-    public List<Person> convertJSONToObject() {
-        List<Person> listOfObjects = new ArrayList<>();
+    public void insertToJsonFile(List<T> listOfObjects) {
+
         try {
-            // Convert JSON string from file to Object
-            listOfObjects = mapper.readValue(new File(path), new TypeReference<List<Person>>() {
-            });
-            // Convert JSON string to Object
+            //Convert object to JSON string and save into file directly
+            mapper.writeValue(new File(path), listOfObjects);
         } catch (
                 JsonGenerationException | JsonMappingException e) {
             log.error(e.getMessage());
         } catch (IOException e) {
             log.error(e.getMessage());
         }
-        return listOfObjects;
+
     }
 }
