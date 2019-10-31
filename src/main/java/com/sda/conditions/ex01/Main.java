@@ -1,8 +1,5 @@
 package com.sda.conditions.ex01;
 
-import com.sun.tools.jdeprscan.scan.Scan;
-
-import java.util.Scanner;
 
 public class Main {
 
