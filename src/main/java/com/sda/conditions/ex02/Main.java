@@ -1,5 +1,6 @@
 package com.sda.conditions.ex02;
 
+
 import com.sda.conditions.ex01.ScannerInt;
 
 public class Main {
@@ -16,8 +17,10 @@ public class Main {
         }
         else{
             System.out.println(false);
+
         }
 
 
     }
+
 }
