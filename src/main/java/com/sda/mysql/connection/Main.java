@@ -12,9 +12,9 @@ public class Main {
             Statement myStatement = myConnection.createStatement();
             String sql = "Select * from exercises.pracownicy";
             ResultSet rs = myStatement.executeQuery(sql);
-            while(rs.next()){
-                System.out.println(rs.getString("imie")+" " + rs.getString("nazwisko"));
-            }
+//            while(rs.next()){
+//                System.out.println(rs.getString("imie")+" " + rs.getString("nazwisko"));
+//            }
 
 
         } catch (Exception e) {
